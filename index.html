@@ -31,10 +31,73 @@
                 <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+            <svg class="burger-icon" width="24" height="24">
+              <use href="./images/icons3.svg#icon-burger"></use>
+            </svg>
+        </button>
     </div>
+
+<div class="mobile-menu">
+ <div class="container-menu mobile-menu-container">
+    <button class="mobile-menu-close">
+        <svg class="close-icon" width="8" height="8">
+          <use href="./images/icons1.svg#icon-close"></use>
+        </svg>
+    </button>
+    <nav class="mobile-menu-nav">
+    <ul class="nav-list-menu">
+        <li class="nav-item-menu"><a class="nav-link current" href="./index.html">Studio</a></li>
+        <li class="nav-item-menu"><a class="nav-link" href="./index.html">Portfolio</a></li>
+        <li class="nav-item-menu"><a class="nav-link" href="./index.html">Contacts</a></li>
+    </ul>
+    </nav>
+
+<address class="contacts-menu">
+    <ul class="contacts-list-menu">
+        <li class="contacts-item-menu"><a class="contacts-link-menu" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contacts-item-menu"><a class="contacts-link-menu" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+    </ul>
+</address>
+<div class="footer-social">
+    <ul class="footer-social-group">
+        <li class="footer-social-list">
+            <a class="footer-socials" href="./index.html">
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+        </a>
+        </li>
+        <li class="footer-social-list">
+            <a class="footer-socials" href="./index.html">
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+        </a>
+    </li>
+        <li class="footer-social-list">
+            <a class="footer-socials" href="./index.html">
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+        </a>
+    </li>
+       <li class="footer-social-list">
+        <a class="footer-socials" href="./index.html">
+            <svg class="footer-social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+        </a>
+    </li> 
+    </ul>
+  </div>
+ </div>
+</div>
+
     </header>
     <main>
-        <section class="main-section">
+        <section class="main-section hidden">
          <div class="container main-container">
              <h1 class="caption">Effective Solutions for Your Business</h1>
              <button class="main-button" type="button">Order Service</button>
@@ -363,7 +426,7 @@
 </div>
 </footer>
 
-<div class="backdrop is-open">
+<div class="backdrop is-open hidden">
     <div class="modal">
         <button class="close" type="button">
             <svg class="close-icon" width="8" height="8">
